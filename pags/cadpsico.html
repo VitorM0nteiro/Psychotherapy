@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Psicologo</title>
+    <link rel="stylesheet" href="cadastramento.css" />
+</head>
+<body>
+    <!--FORMULÁRIO DE CADASTRO PSICÓLOGO-->
+    <div id="cadastro">
+        <div class="form-container">
+            <form method="post" action="" class="form"> 
+                <h1>Cadastro do Psicólogo</h1> 
+                 
+                <p> 
+                  <label for="nome_cad">Seu nome</label>
+                  <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Nome" />
+                </p>
+                 
+                <p> 
+                  <label for="email_cad">Seu e-mail</label>
+                  <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@psychotherapy.com"/> 
+                </p>
+                 
+                <p> 
+                  <label for="senha_cad">Sua senha</label>
+                  <input id="senha_cad" name="senha_cad" required="required" type="senha" placeholder="Senha"/>
+                </p>
+
+                <p> 
+                  <label for="datanasc_cad">Data de Nascimento</label>
+                  <input id="datanasc_cad" name="datanasc_cad" required="required" type="date"/>
+                </p>
+
+                <p> 
+                  <label for="gênero_cad">Seu gênero</label>
+                  <select required="required" name="gênero_cad" id="gênero_cad">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Prefiro não dizer">Prefiro não dizer</option>
+                  </select>
+                </p>
+
+                <p> 
+                  <label for="estado_cad">Seu estado</label>
+                  <select required="required" name="estado_cad" id="estado_cad">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                  </select>
+                </p>
+
+                <p> 
+                  <label for="endereço_cad">Seu Endereço</label>
+                  <input id="endereço_cad" name="endereço_cad" required="required" type="text" placeholder="Rua, Número, Complemento e Bairro."/>
+                </p>
+
+                <p> 
+                  <label for="cpf_cad">Seu CPF</label>
+                  <input id="cpf_cad" name="cpf_cad" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required="required" type="text" placeholder="Digite um CPF no formato: xxx.xxx.xxx-xx"/>
+                </p>
+
+                <p> 
+                  <label for="cv">
+                    Diploma
+                    <input required="required" type="file" name="cv" class="input" id="cv">
+                  </label>
+                </p>
+
+                <p> 
+                 <label class="horario">
+                  Disponibilidade de horário para atendimento
+                 <input required="required" type="time" name="horario" id="horario"></label> 
+                </p>
+
+                <p class="campo">
+                  <br>
+                  <label for="experiencia">Conte um pouco mais da sua experiência</label>
+                  <textarea required="required" rows="15" style="width: 45em" id="experiencia" name="experiencia"></textarea>
+                </p>
+
+                <p> 
+                  <input type="submit" value="Cadastrar"/> 
+                </p>
+                 
+                <p class="link">  
+                  Já tem conta?
+                  <a href="login.html"> Ir para Login </a>
+                </p>
+              </form>
+        </div>
+      </div>
+  <!-- SWIPER.JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- SCROLLREVEAL.JS -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- MAIN.JS -->
+  <script src="main.js"></script>
+
+</body>
+</html>
+</body>
+</html>

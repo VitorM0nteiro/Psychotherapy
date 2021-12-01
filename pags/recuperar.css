@@ -1,0 +1,81 @@
+/*====  VARIABLES ============================ */
+:root {
+    --header-height: 4.5rem;
+  
+    /* colors */
+    --hue: 159;
+    /* HSL color mode */
+    --base-color: hsl(var(--hue) 36% 57%);
+    --base-color-second: hsl(var(--hue) 65% 88%);
+    --base-color-alt: hsl(var(--hue) 57% 53%);
+    --title-color: hsl(var(--hue) 41% 10%);
+    --text-color: hsl(0 0% 46%);
+    --text-color-light: hsl(0 0% 98%);
+    --body-color: hsl(0 0% 98%);
+  
+    /* fonts */
+    --title-font-size: 1.875rem;
+    --subtitle-font-size: 1rem;
+  
+    --title-font: 'Poppins', sans-serif;
+    --body-font: 'DM Sans', sans-serif;
+  }
+
+body{
+    background-color: #fafafa;
+    font-family: sans-serif;
+
+}
+.form {
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+
+}
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px ;
+}
+
+.card-top{
+    text-align: center;
+}
+
+.card-group{
+    margin-bottom: 10px;
+}
+
+.card-group > label{
+    width: 100%;
+    color: black;
+    display: block;
+
+}
+
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+
+.card-group > button{
+    background-color: var(--base-color);
+    color: var(--text-color-light);; 
+    width: 104%;
+    border-radius: 10px;
+    padding: 15px;
+    border: 0px;
+    outline: 0;
+} 
+
+.btn button:hover{
+    background: var(--base-color-alt);
+}
+
+.title{
+    color: #6ab99d;
+}
